@@ -12,7 +12,6 @@ class EmailService:
     def get_current_date(self):
         return datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-    
     def send (self, to: list[str], title: str, message: str, cc: list[str] = [] , attachment: str | None = None) -> bool: 
         try:
             email_user = "multifuncional@lindcorp.pe"

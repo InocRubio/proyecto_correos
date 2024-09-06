@@ -1,4 +1,5 @@
 venv
+env
 .env
 src/files/images/
 src/files/xlsx/
